@@ -39,9 +39,7 @@ function getHumanChoice(){
     return Humanchoice;
 }
 
-const HumanScore = 0;
 
-const ComputerScore = 0;
 
 function playRound(humanChoice, computerChoice) {
     if (humanChoice === computerChoice) {
