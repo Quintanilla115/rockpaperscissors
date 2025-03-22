@@ -1,4 +1,6 @@
-console.log("Hello, World!");
+
+//This the game part
+
 
 
 function getComputerChoice(max){
@@ -90,4 +92,13 @@ function game() {
     }
 }
 
-game();
+
+// the JavaScript file
+const button = document.getElementById('button');
+
+button.addEventListener('click', Hello);
+
+function Hello(){
+    alert('Hello');
+}
+
