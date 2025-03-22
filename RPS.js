@@ -2,11 +2,11 @@
 //This the game part
 
 
-
 function getComputerChoice(max){
     return Math.floor(Math.random()* max)
     
 }
+
 
 
 switch(getComputerChoice(3)){
