@@ -1,10 +1,12 @@
-console.log("Hello, World!");
+
+//This the game part
 
 
 function getComputerChoice(max){
     return Math.floor(Math.random()* max)
     
 }
+
 
 
 switch(getComputerChoice(3)){
@@ -90,4 +92,9 @@ function game() {
     }
 }
 
-game();
+
+// the JavaScript file
+const button = document.getElementById('button');
+
+button.addEventListener('click', game);
+
